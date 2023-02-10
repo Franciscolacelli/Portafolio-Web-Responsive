@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="icon" href="/assets/images/logoFL-circle.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portafolio FL</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+    <body>
+      <header class="header">
+        <nav class="navbar grid--container">
+         <img class="navbar__logo" src="/assets/images/logoFL.png" alt="logo">   
+
+         <div id="nav" class="navbar__menu">
+          <a href="#close"
+            ><i class='bx bx-x  btn__close navbar__icon'></i></a>
+
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#home">Inicio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#about">Acerca de Mí</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#projects">Portafolio</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#contact">Contacto</a>
+            </li>
+           </ul>
+           </div>
+            <a href="#nav"><i class="bx bx-menu btn__open navbar__icon"></i
+          ></a>
+         </nav>
+      </header>
+     <main>
+          <!-- HOME  -->
+        <section id="home" class="home">
+        <div class="home__container grid--container">
+          <div>
+            <span></span>
+           
+            <img class="home__image" src="assets/images/byn.jpg" alt="profile photo">
+          </div>
+
+          
+        </div>
+        <div class="home__info">
+          <h1 class="home__title">Hola, mi Nombre es <span class="nombres">FRANCISCO LACELLI</span> <br> y soy <span class="nombres">DESARROLLADOR WEB</span></h1>
+         
+        </div>
+        <div class="home__buttons">
+          <div class="contat"><a class="navbar__link2" href="#contact">Contacto</a></div>
+        </div>
+        </section>
+
+          <!-- ABOUT SECTION  -->
+        <section id="about" class="about section">
+        <h2 class="title">Acerca de Mí</h2>
+
+        <div class="about__container grid--container">
+          <p class="about__description">
+            Durante mi servicio en las fuerzas especiales, he desarrollado un gran conjunto de habilidades y valores ideales para el trabajo en equipo, en situaciones de alta presión y bajo margen de error, pensamiento estratégico, capacidad para resolver problemas y adaptarse a situaciones cambiantes.
+         <br>
+         <br>
+            Estos conocimientos y valores son esenciales para mí y estoy comprometido a aplicarlos en cualquier proyecto en el que participe.
+          </p>
+          <div class="about__skills grid--container">
+            <div class="about__cards"> <h2 class="title_habilid">Habilidades:</h2> 
+              <!-- Card 1 -->
+              <div class="about__card card1" data-aos-duration="1000" data-aos="zoom-in-right">
+                <i class='bx bxl-html5' ></i>
+                <h3 class="about__card-title">HTML5</h3>
+                <Garantiza class="parrafo">Garantiza el formato adecuado de texto, imágenes y estructura para tu navegador.</p>
+              </div>
+              <!-- Card 2 -->
+              <div class="about__card card2" data-aos-duration="1000" data-aos="zoom-out">
+                <i class='bx bxl-css3' ></i>
+                <h3 class="about__card-title">CSS3</h3>
+                <p class="parrafo">Hoja de estilos para controlar el aspecto y presentación de tu Web.</p>
+              </div>
+              <!-- Card 3 -->
+              <div class="about__card card3" data-aos-duration="1000" data-aos="zoom-in-left">
+                <i class='bx bxl-javascript' ></i>
+                <h3 class="about__card-title">JavaScript</h3>
+                <p class="parrafo">Funcional y de calidad para que en tu Web consigas interaccion y experiencia de usuario.</p>
+              </div>
+            </div>
+            <div class="about__tags">
+              <h2 class="about__tags-title">Valores:</h2>
+              <div class="about__tags-container">
+                <div class="about__tag">LEALTAD: <div class="tagp">Siempre pongo el bienestar de mi equipo por encima de mis propios intereses.</div></div>
+                <div class="about__tag">INTEGRIDAD: <div class="tagp">Me aseguro de actuar con honestidad y etica en todas las situaciones.</div></div>
+                <div class="about__tag">DISCIPLINA: <div class="tagp">Me esfuerzo constantemente por alcanzar mis metas y superar mis limites. </div></div>
+                <div class="about__tag">RESPONSABILIDAD: <div class="tagp">Me hago responsable de mis acciones y desiciones, y acepto las consecuencias.</div></div>
+                <div class="about__tag">SERVICIO: <div class="tagp">Siempre dispuesto a ayudar a los demas.</div></div>
+             </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+      <section id="projects" class="projects_section">
+        <h2 class="section__title_proyect">Proyectos</h2>
+        <div class="projects__container grid--container">
+          <!-- Proyecto 1  -->
+          <div class="projects__project" data-aos="zoom-in-down" data-aos-duration="1000">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/images/html2.webp" alt="project1">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 1</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2  -->
+          <div class="projects__project" data-aos="zoom-in-down" data-aos-duration="1000">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/images/img2.jpg" alt="project2">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 2</h3>
+                 <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3  -->
+          <div class="projects__project" data-aos="zoom-in-down" data-aos-duration="1000">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/images/FL.png" alt="project3">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 3</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4  -->
+          <div class="projects__project" data-aos="zoom-in-down" data-aos-duration="1000">
+            <div class="projects__inner grid--container">
+              <div class="projects__image">
+                <img src="assets/images/terra.jpg" alt="project4">
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__name">Proyecto 4</h3>
+                <p class="projects__description">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="projects__buttons">
+                  <button class="btn projects__button" type="button">VER DEMO</button>
+                  <button class="btn projects__button" type="button">VER CÓDIGO</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <h2 class="section__title__contact">Contacto</h2>
+
+        <div class="contact__container grid--container">
+          <div class="contact__info">
+            <h3 class="contact__info-title" data-aos-duration="1500" data-aos="fade-right">Ponte en contacto y hagamos que tu idea <br> se convierta en Realidad!!</h3>
+            
+
+            <address class="contact__info-data">
+              <div class="contact__info-item">
+                <i class='bx bxl-whatsapp' ></i>
+                <span class="contact__info-number">
+                  <a class="linkk" href="https://wa.me/+542281525029?text=Tu%20Mensaje%20De%20Texto" target="_blank"> 
+                  Enviar WhatsApp</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+                <i class='bx bx-phone' ></i>
+                <span class="contact__info-number">
+                  <a class="linkk" href="tel:+542281525029">+54 2281 525029</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+              
+                <span class="contact__info-mail">
+                  <a class="linkk" id="mail" href="milto:franciscolacelli49@gmail.com"><i class='bx bx-envelope' ></i>franciscolacelli49@gmail.com</a>
+                </span>
+              </div>
+              <div class="contact__info-item">
+                <i class='bx bxs-map' ></i>
+                <span class="contact__info-map">
+                  Argentina
+                </span>
+              </div>
+            </address>
+          </div>
+
+          <div class="contact__form" data-aos="fade-right" data-aos-duration="1500">
+            <h3 class="contact__form-title">Enviar Mensaje</h3>
+
+            <form id="form" class="contact__form-container">
+              <div class="contact__form-group">
+                <label for="name" class="contact__form-label">Nombre</label>
+                <input type="text" id="name" name="name" class="contact__form-input">
+              </div>
+              <div class="contact__form-group">
+                <label for="subject" class="contact__form-label">Asunto</label>
+                <input type="text" id="subject" name="subject" class="contact__form-input">
+              </div>
+              <div class="contact__form-group">
+                <label for="message" class="contact__form-label">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="contact__form-input"></textarea>
+              </div>
+              <div class="button">
+              <button type="submit" class="btn contact__form-button">Enviar</button></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer section">
+      <div class="footer__container grid--container">
+          <div class="footer__social">
+          <h3 class="footer__title">Redes Sociales</h3>
+
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" target="_blank" href="https://www.facebook.com/fran.lli.7"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+            </li>
+
+            <li class="footer__social-item">
+              <a class="footer__social-link" target="_blank" href="https://www.instagram.com/franciscolacelli"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+            </li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" target="_blank" href="https://github.com/Franciscolacelli?tab=projects"
+                ><i class='bx bxl-github'></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <h3 class="footer__title">Francisco Lacelli</h3>
+          <p class="footer__description">
+            Soy desarrollador web, apasionado por la tecnología, la
+            programación y las buenas costumbres.
+          </p>
+        </div>
+      </div>
+
+      <p class="footer__copy">&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+      const formulario = document.querySelector('#form')
+      const sendForm = document.querySelector('#mail')
+
+      formulario.addEventListener('submit', handleSubmit)
+
+      function handleSubmit(e) {
+        e.preventDefault()
+        const form = new FormData(this)
+        sendForm.setAttribute('href', `mailto:franciscolacelli49@gmail.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+        sendForm.click()
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
